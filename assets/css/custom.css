@@ -2,3 +2,7 @@
     width: 25px;
     height: 25px;
 }
+
+ul.contact li a:hover {
+    background-color: #FFFFFF0F;
+}
