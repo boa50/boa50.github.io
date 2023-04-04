@@ -3831,7 +3831,8 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				border-radius: 10%;
+				/* border-radius: 100%; */
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -3839,8 +3840,11 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					border-radius: 10%;
+					/* border-radius: 100%; */
 					width: 100%;
+					min-width: 256px;
+					min-height: 256px;
 				}
 
 			.wrapper.spotlight .content {
