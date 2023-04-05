@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/w3.css" />
+		<link rel="stylesheet" href="assets/css/carousel.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -33,9 +35,24 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="https://github.com/boa50/money-wellbeing" class="image" target="_blank">
+									<!-- <a href="https://github.com/boa50/money-wellbeing" class="image" target="_blank">
 										<img src="images/proj01.webp" alt="" />
-									</a>
+									</a> -->
+									<!-- The carousel was based on https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2 -->
+									<div class="w3-content w3-display-container carousel">
+										<img class="slides" src="images/proj01.webp">
+										<img class="slides" src="images/pic02.jpg">
+										<img class="slides" src="images/pic04.jpg">
+										<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle controls">
+										  <div class="w3-left w3-hover-text-khaki arrow" onclick="plusDivs(-1)">&#10094;</div>
+										  <div class="dots">
+											<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+											<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+											<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+										  </div>
+										  <div class="w3-right w3-hover-text-khaki arrow" onclick="plusDivs(1)">&#10095;</div>
+										</div>
+									  </div>
 									<div class="content">
 										<h2 class="major">How much money do we need to be happy?</h2>
 										<p>
@@ -161,6 +178,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/carousel.js"></script>
 	</body>
 </html>
