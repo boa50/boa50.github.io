@@ -7,15 +7,15 @@
 }
 
 .w3-badge {
-    height: 13px;
-    width: 13px;
+    height: 1rem;
+    width: 1rem;
     padding: 0
 }
 
 .carousel {
-    width: 256px;
-    height: 256px;
-    margin: 0 16px;
+    width: 36rem;
+    height: 17rem;
+    margin: 0 0 0 20px;
 }
 
 .carousel img {
