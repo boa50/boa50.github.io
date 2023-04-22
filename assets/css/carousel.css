@@ -13,9 +13,8 @@
 }
 
 .carousel {
-    width: 36rem;
-    height: 17rem;
-    margin: 0 0 0 20px;
+    width: 90%;
+    margin: 0 0 0 2em;
 }
 
 .carousel img {
