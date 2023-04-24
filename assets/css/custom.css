@@ -3,6 +3,10 @@
     height: 25px;
 }
 
+.technologies img.wide-logo {
+    width: auto;
+}
+
 ul.contact li a:hover {
     background-color: #FFFFFF0F;
 }
