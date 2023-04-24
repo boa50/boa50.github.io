@@ -14,7 +14,15 @@
 
 .carousel {
     width: 90%;
+}
+
+#one > .inner > .carousel,
+#three > .inner > .carousel {
     margin: 0 0 0 2em;
+}
+
+#two > .inner > .carousel {
+    margin: 0 2em 0 0;
 }
 
 .carousel img {
