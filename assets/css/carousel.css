@@ -48,6 +48,14 @@
     flex-grow: 2;
 }
 
+.carousel .controls .dots > span:hover {
+    background-color: #2e314170 !important;
+}
+
+.dot-selected {
+    background-color: #2e3141a0 !important;
+}
+
 .carousel .controls .arrow {
     align-self: center;
     color: #999999 !important;

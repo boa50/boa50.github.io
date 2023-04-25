@@ -26,8 +26,8 @@ function showDivs(n, proj) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
+    dots[i].className = dots[i].className.replace(" dot-selected", "");
   }
   x[slideIndexes[proj] - 1].style.display = "block";  
-  dots[slideIndexes[proj] - 1].className += " w3-white";
+  dots[slideIndexes[proj] - 1].className += " dot-selected";
 }
