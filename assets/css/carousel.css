@@ -14,6 +14,7 @@
 
 .carousel {
     width: 90%;
+    max-width: 29em;
     aspect-ratio: 1.5;
 }
 
@@ -63,4 +64,10 @@
 
 .carousel .controls .arrow:hover {
     color: #cccccc !important;
+}
+
+@media screen and (max-width: 736px) {
+    .carousel {
+        margin: auto !important;
+    }
 }

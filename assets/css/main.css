@@ -3981,6 +3981,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-start;
 					-ms-align-items: -ms-flex-start;
 					align-items: flex-start;
+					display: block;
 				}
 
 				.wrapper.spotlight .image {
@@ -3995,10 +3996,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
-			.wrapper.spotlight .inner {
-				display: block;
-			}
 
 			.wrapper.spotlight .image {
 				margin: 0 0 1em 0 !important;
