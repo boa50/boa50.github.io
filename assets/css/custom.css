@@ -10,3 +10,19 @@
 ul.contact li a:hover {
     background-color: #FFFFFF0F;
 }
+
+.logo img {
+    height: 4.5em;
+}
+
+#banner.no-transition .logo {
+    transition: none;
+}
+
+#banner.no-transition h2 {
+    transition: none;
+}
+
+#banner.no-transition p {
+    transition: none;
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en_AU">
+
+<head>
+    <title>Bruno Albuquerque</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/w3.css" />
+    <link rel="stylesheet" href="assets/css/carousel.css" />
+    <link rel="stylesheet" href="assets/css/topnav.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <div class="topnav" id="myTopnav">
+        <div class="topnav-group">
+            <a href="index.html" class="active">Home</a>
+            <a href="d3.html">D3.js</a>
+            <a href="powerbi.html">Power BI</a>
+            <a href="r.html">R</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="navControl()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <div class="logo"><span class="icon solid fa-chart-line"></span></div>
+                <h2>Bruno Oliveira de Albuquerque</h2>
+                <p>Data Analyses and Visualisations</a></p>
+            </div>
+        </section>
+
+        <!-- Wrapper -->
+        <section id="wrapper">
+
+            <!-- One -->
+            <section id="one" class="wrapper spotlight style1">
+                <div class="inner">
+                    <!-- The carousel was based on https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2 -->
+                    <div class="w3-content w3-display-container carousel">
+                        <img class="slides proj01" src="images/projects/money_wellbeing_01.webp">
+                        <img class="slides proj01" src="images/projects/money_wellbeing_02.webp">
+                        <img class="slides proj01" src="images/projects/money_wellbeing_03.webp">
+                        <div
+                            class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle controls">
+                            <div class="w3-left w3-hover-text-khaki arrow" onclick="plusDivs(-1, 'proj01')">&#10094;
+                            </div>
+                            <div class="dots">
+                                <span class="w3-badge demo proj01 w3-border w3-transparent"
+                                    onclick="currentDiv(1, 'proj01')"></span>
+                                <span class="w3-badge demo proj01 w3-border w3-transparent"
+                                    onclick="currentDiv(2, 'proj01')"></span>
+                                <span class="w3-badge demo proj01 w3-border w3-transparent"
+                                    onclick="currentDiv(3, 'proj01')"></span>
+                            </div>
+                            <div class="w3-right w3-hover-text-khaki arrow" onclick="plusDivs(1, 'proj01')">&#10095;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2 class="major">How much money do we need to be happy?</h2>
+                        <p>
+                            We sometimes think a positive, almost linear correlation exists between our income and
+                            happiness. But does this happen whatever our income is? Is there a limit on how much
+                            influence money has on our well-being?
+                            </br>
+                            I developed this analysis to show a correlation between money and life satisfaction, trying
+                            to understand the influence of money in our lives and if we pursue getting more money it
+                            will worth.
+                        </p>
+                        <p class="technologies">Technologies used:
+                            <img src="images/logos/r.webp" alt="R logo" />
+                            <img src="images/logos/ggplot.webp" alt="ggplot logo" />
+                        </p>
+                        <div style="display: flex; justify-content: space-evenly;">
+                            <a href="https://github.com/boa50/money-wellbeing" target="_blank"
+                                class="special">Repository</a>
+                            <a href="https://medium.com/p/b6a70a2d2197" target="_blank" class="special">Complete
+                                analysis</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Two -->
+            <section id="two" class="wrapper alt spotlight style2">
+                <div class="inner">
+                    <div class="w3-content w3-display-container carousel">
+                        <img class="slides proj02" src="images/projects/environmental_dashboard_01.webp">
+                        <img class="slides proj02" src="images/projects/environmental_dashboard_02.webp">
+                        <img class="slides proj02" src="images/projects/environmental_dashboard_03.webp">
+                        <div
+                            class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle controls">
+                            <div class="w3-left w3-hover-text-khaki arrow" onclick="plusDivs(-1, 'proj02')">&#10094;
+                            </div>
+                            <div class="dots">
+                                <span class="w3-badge demo proj02 w3-border w3-transparent"
+                                    onclick="currentDiv(1, 'proj02')"></span>
+                                <span class="w3-badge demo proj02 w3-border w3-transparent"
+                                    onclick="currentDiv(2, 'proj02')"></span>
+                                <span class="w3-badge demo proj02 w3-border w3-transparent"
+                                    onclick="currentDiv(3, 'proj02')"></span>
+                            </div>
+                            <div class="w3-right w3-hover-text-khaki arrow" onclick="plusDivs(1, 'proj02')">&#10095;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2 class="major">Environmental Dashboard</h2>
+                        <p>Dashboard showing how each country is improving their renewable energy generation and how it
+                            compares to the other kinds of energy.</p>
+                        <p class="technologies">Technologies used:
+                            <img src="images/logos/r.webp" alt="R logo" />
+                            <img src="images/logos/shiny.webp" alt="Shiny logo" />
+                            <img src="images/logos/ggplot.webp" alt="ggplot logo" />
+                            <img class="wide-logo" src="images/logos/leaflet.webp" alt="Leaflet logo" />
+                        </p>
+                        <a href="https://github.com/boa50/environmental-dashboard" target="_blank"
+                            class="special">Repository</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Three -->
+            <section id="three" class="wrapper spotlight style3">
+                <div class="inner">
+                    <div class="w3-content w3-display-container carousel">
+                        <img class="slides proj03" src="images/projects/apple_carbon_neutrality_01.webp">
+                        <img class="slides proj03" src="images/projects/apple_carbon_neutrality_02.webp">
+                        <img class="slides proj03" src="images/projects/apple_carbon_neutrality_03.webp">
+                        <div
+                            class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle controls">
+                            <div class="w3-left w3-hover-text-khaki arrow" onclick="plusDivs(-1, 'proj03')">&#10094;
+                            </div>
+                            <div class="dots">
+                                <span class="w3-badge demo proj03 w3-border w3-transparent"
+                                    onclick="currentDiv(1, 'proj03')"></span>
+                                <span class="w3-badge demo proj03 w3-border w3-transparent"
+                                    onclick="currentDiv(2, 'proj03')"></span>
+                                <span class="w3-badge demo proj03 w3-border w3-transparent"
+                                    onclick="currentDiv(3, 'proj03')"></span>
+                            </div>
+                            <div class="w3-right w3-hover-text-khaki arrow" onclick="plusDivs(1, 'proj03')">&#10095;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2 class="major">Apple's Carbon Neutrality</h2>
+                        <p>
+                            Recently, many companies have been trying hard to reduce the carbon footprint of their
+                            products and manufacturing procedures, and Apple is one of those.
+                            </br>
+                            In this infographic, I've shown whether Apple's efforts to reach carbon neutrality by 2030
+                            are paying off and which difficulties it might still come up against in the future.</p>
+                        <p class="technologies">Technologies used:
+                            <img src="images/logos/d3.webp" alt="D3.js logo" />
+                            <img src="images/logos/canva.webp" alt="Canva logo" />
+                        </p>
+                        <div style="display: flex; justify-content: space-evenly;">
+                            <a href="https://github.com/boa50/maven-environmental-challenge" target="_blank"
+                                class="special">Repository</a>
+                            <a href="https://github.com/boa50/maven-environmental-challenge/blob/master/infographic.pdf"
+                                target="_blank" class="special">Complete Infographic</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Four -->
+            <section id="four" class="wrapper alt style1">
+                <div class="inner">
+                    <h2 class="major">Other Projects</h2>
+                    <section class="features">
+                        <article>
+                            <a href="images/projects/impactful_visualisations.webp" class="image"><img
+                                    src="images/projects/impactful_visualisations.webp" alt="" /></a>
+                            <h3 class="major">How to create impactful visualisations</h3>
+                            <p>Techniques to improve data visualisations to make them more useful to present
+                                information.</p>
+                            <a href="https://github.com/boa50/WAYED-challenge" target="_blank" class="special">Learn
+                                more</a>
+                        </article>
+                        <article>
+                            <a href="images/projects/global_hunger.webp" class="image"><img
+                                    src="images/projects/global_hunger.webp" alt="" /></a>
+                            <h3 class="major">Global Hunger</h3>
+                            <p>Charts with analyses of the world's hunger throughout the last years to show if zero
+                                hunger would be achievable until 2030.</p>
+                            <a href="https://github.com/boa50/global-hungry" target="_blank" class="special">Learn
+                                more</a>
+                        </article>
+                        <article>
+                            <a href="images/projects/palette_dashboard.webp" class="image"><img
+                                    src="images/projects/palette_dashboard.webp" alt="" /></a>
+                            <h3 class="major">Palette Dashboard</h3>
+                            <p>This dashboard was created to help test colour palettes for data visualisations. I used
+                                R, ggplot and flexdashboard to develop it.</p>
+                            <a href="https://github.com/boa50/dashboard-palette" target="_blank" class="special">Learn
+                                more</a>
+                        </article>
+                        <article>
+                            <a href="images/projects/world_slopes.webp" class="image"><img
+                                    src="images/projects/world_slopes.webp" alt="" /></a>
+                            <h3 class="major">World Slopes</h3>
+                            <p>Single-page static dashboard to show helpful information about worldwide ski resorts.</p>
+                            <a href="https://github.com/boa50/slopes-dashboard" target="_blank" class="special">Learn
+                                more</a>
+                        </article>
+                        <article>
+                            <a href="images/projects/educational_case_study.webp" class="image"><img
+                                    src="images/projects/educational_case_study.webp" alt="" /></a>
+                            <h3 class="major">Educational Case Study</h3>
+                            <p>In this analysis, I tried to expose the influence of some indicators on students
+                                enrollment, focusing primarily on Brazil’s context.</p>
+                            <a href="https://github.com/boa50/education-case-study" target="_blank"
+                                class="special">Learn more</a>
+                        </article>
+                    </section>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">
+                <h2 class="major">Get in touch</h2>
+                <ul class="contact">
+                    <li>
+                        <a class="icon brands fa-linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/brunoalbuquerque50"></a>
+                    </li>
+                    <li>
+                        <a class="icon brands fa-github" target="_blank" href="https://github.com/boa50"></a>
+                    </li>
+                    <li>
+                        <a class="icon solid fa-newspaper" target="_blank" href="https://medium.com/@boa50"></a>
+                    </li>
+                    <li>
+                        <a class="icon brands fa-twitter" target="_blank" href="https://twitter.com/boa5050"></a>
+                    </li>
+                    <li>
+                        <a class="icon solid fa-envelope" href="mailto:bruno.albuquerque50@gmail.com"></a>
+                    </li>
+                </ul>
+                <ul class="copyright">
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>Background photo by <a
+                            href="https://unsplash.com/pt-br/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen
+                            Dawson</a> on <a
+                            href="https://unsplash.com/photos/qwtCeJ5cLYs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
