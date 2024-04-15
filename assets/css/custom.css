@@ -26,3 +26,8 @@ ul.contact li a:hover {
 #banner.no-transition p {
     transition: none;
 }
+
+.major .date {
+    display: block;
+    font-size: 1rem;
+}
